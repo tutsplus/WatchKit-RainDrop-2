@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4381EC1ACE99A900E93B3D /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = CC4381EB1ACE99A900E93B3D /* weather.json */; };
+		CC4381EE1ACE9C2600E93B3D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4381ED1ACE9C2600E93B3D /* SwiftyJSON.swift */; };
+		CC4381F01ACEA17700E93B3D /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4381EF1ACEA17700E93B3D /* WeatherData.swift */; };
+		CC786C441AC1CD0400FE9C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786C431AC1CD0400FE9C3C /* AppDelegate.swift */; };
+		CC786C461AC1CD0400FE9C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786C451AC1CD0400FE9C3C /* ViewController.swift */; };
+		CC786C491AC1CD0400FE9C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC786C471AC1CD0400FE9C3C /* Main.storyboard */; };
+		CC786C4B1AC1CD0400FE9C3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC786C4A1AC1CD0400FE9C3C /* Images.xcassets */; };
+		CC786C4E1AC1CD0400FE9C3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC786C4C1AC1CD0400FE9C3C /* LaunchScreen.xib */; };
+		CC786C5A1AC1CD0400FE9C3C /* RainDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786C591AC1CD0400FE9C3C /* RainDropTests.swift */; };
+		CC786C6C1AC1CD1000FE9C3C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC786C6B1AC1CD1000FE9C3C /* InterfaceController.swift */; };
+		CC786C6E1AC1CD1000FE9C3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC786C6D1AC1CD1000FE9C3C /* Images.xcassets */; };
+		CC786C721AC1CD1000FE9C3C /* RainDrop WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = CC786C711AC1CD1000FE9C3C /* RainDrop WatchKit App.app */; };
+		CC786C7A1AC1CD1000FE9C3C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC786C781AC1CD1000FE9C3C /* Interface.storyboard */; };
+		CC786C7C1AC1CD1000FE9C3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC786C7B1AC1CD1000FE9C3C /* Images.xcassets */; };
+		CC786C7F1AC1CD1000FE9C3C /* RainDrop WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CC786C671AC1CD1000FE9C3C /* RainDrop WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC786C541AC1CD0400FE9C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC786C361AC1CD0400FE9C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC786C3D1AC1CD0400FE9C3C;
+			remoteInfo = RainDrop;
+		};
+		CC786C731AC1CD1000FE9C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC786C361AC1CD0400FE9C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC786C701AC1CD1000FE9C3C;
+			remoteInfo = "RainDrop WatchKit App";
+		};
+		CC786C7D1AC1CD1000FE9C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC786C361AC1CD0400FE9C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC786C661AC1CD1000FE9C3C;
+			remoteInfo = "RainDrop WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC786C861AC1CD1000FE9C3C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC786C7F1AC1CD1000FE9C3C /* RainDrop WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC4381EB1ACE99A900E93B3D /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
+		CC4381ED1ACE9C2600E93B3D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CC4381EF1ACEA17700E93B3D /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		CC786C3E1AC1CD0400FE9C3C /* RainDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC786C421AC1CD0400FE9C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC786C431AC1CD0400FE9C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC786C451AC1CD0400FE9C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC786C481AC1CD0400FE9C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC786C4A1AC1CD0400FE9C3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC786C4D1AC1CD0400FE9C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC786C531AC1CD0400FE9C3C /* RainDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC786C581AC1CD0400FE9C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC786C591AC1CD0400FE9C3C /* RainDropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainDropTests.swift; sourceTree = "<group>"; };
+		CC786C671AC1CD1000FE9C3C /* RainDrop WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RainDrop WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC786C6A1AC1CD1000FE9C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC786C6B1AC1CD1000FE9C3C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CC786C6D1AC1CD1000FE9C3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC786C711AC1CD1000FE9C3C /* RainDrop WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RainDrop WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC786C771AC1CD1000FE9C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC786C791AC1CD1000FE9C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CC786C7B1AC1CD1000FE9C3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC786C3B1AC1CD0400FE9C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC786C501AC1CD0400FE9C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC786C641AC1CD1000FE9C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC786C351AC1CD0400FE9C3C = {
+			isa = PBXGroup;
+			children = (
+				CC786C401AC1CD0400FE9C3C /* RainDrop */,
+				CC786C561AC1CD0400FE9C3C /* RainDropTests */,
+				CC786C681AC1CD1000FE9C3C /* RainDrop WatchKit Extension */,
+				CC786C751AC1CD1000FE9C3C /* RainDrop WatchKit App */,
+				CC786C3F1AC1CD0400FE9C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC786C3F1AC1CD0400FE9C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC786C3E1AC1CD0400FE9C3C /* RainDrop.app */,
+				CC786C531AC1CD0400FE9C3C /* RainDropTests.xctest */,
+				CC786C671AC1CD1000FE9C3C /* RainDrop WatchKit Extension.appex */,
+				CC786C711AC1CD1000FE9C3C /* RainDrop WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC786C401AC1CD0400FE9C3C /* RainDrop */ = {
+			isa = PBXGroup;
+			children = (
+				CC786C431AC1CD0400FE9C3C /* AppDelegate.swift */,
+				CC786C451AC1CD0400FE9C3C /* ViewController.swift */,
+				CC786C471AC1CD0400FE9C3C /* Main.storyboard */,
+				CC786C4A1AC1CD0400FE9C3C /* Images.xcassets */,
+				CC786C4C1AC1CD0400FE9C3C /* LaunchScreen.xib */,
+				CC786C411AC1CD0400FE9C3C /* Supporting Files */,
+			);
+			path = RainDrop;
+			sourceTree = "<group>";
+		};
+		CC786C411AC1CD0400FE9C3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC786C421AC1CD0400FE9C3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC786C561AC1CD0400FE9C3C /* RainDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC786C591AC1CD0400FE9C3C /* RainDropTests.swift */,
+				CC786C571AC1CD0400FE9C3C /* Supporting Files */,
+			);
+			path = RainDropTests;
+			sourceTree = "<group>";
+		};
+		CC786C571AC1CD0400FE9C3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC786C581AC1CD0400FE9C3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC786C681AC1CD1000FE9C3C /* RainDrop WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC4381EB1ACE99A900E93B3D /* weather.json */,
+				CC4381ED1ACE9C2600E93B3D /* SwiftyJSON.swift */,
+				CC786C6B1AC1CD1000FE9C3C /* InterfaceController.swift */,
+				CC4381EF1ACEA17700E93B3D /* WeatherData.swift */,
+				CC786C6D1AC1CD1000FE9C3C /* Images.xcassets */,
+				CC786C691AC1CD1000FE9C3C /* Supporting Files */,
+			);
+			path = "RainDrop WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CC786C691AC1CD1000FE9C3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC786C6A1AC1CD1000FE9C3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC786C751AC1CD1000FE9C3C /* RainDrop WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CC786C781AC1CD1000FE9C3C /* Interface.storyboard */,
+				CC786C7B1AC1CD1000FE9C3C /* Images.xcassets */,
+				CC786C761AC1CD1000FE9C3C /* Supporting Files */,
+			);
+			path = "RainDrop WatchKit App";
+			sourceTree = "<group>";
+		};
+		CC786C761AC1CD1000FE9C3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC786C771AC1CD1000FE9C3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC786C3D1AC1CD0400FE9C3C /* RainDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC786C5D1AC1CD0400FE9C3C /* Build configuration list for PBXNativeTarget "RainDrop" */;
+			buildPhases = (
+				CC786C3A1AC1CD0400FE9C3C /* Sources */,
+				CC786C3B1AC1CD0400FE9C3C /* Frameworks */,
+				CC786C3C1AC1CD0400FE9C3C /* Resources */,
+				CC786C861AC1CD1000FE9C3C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC786C7E1AC1CD1000FE9C3C /* PBXTargetDependency */,
+			);
+			name = RainDrop;
+			productName = RainDrop;
+			productReference = CC786C3E1AC1CD0400FE9C3C /* RainDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC786C521AC1CD0400FE9C3C /* RainDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC786C601AC1CD0400FE9C3C /* Build configuration list for PBXNativeTarget "RainDropTests" */;
+			buildPhases = (
+				CC786C4F1AC1CD0400FE9C3C /* Sources */,
+				CC786C501AC1CD0400FE9C3C /* Frameworks */,
+				CC786C511AC1CD0400FE9C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC786C551AC1CD0400FE9C3C /* PBXTargetDependency */,
+			);
+			name = RainDropTests;
+			productName = RainDropTests;
+			productReference = CC786C531AC1CD0400FE9C3C /* RainDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC786C661AC1CD1000FE9C3C /* RainDrop WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC786C831AC1CD1000FE9C3C /* Build configuration list for PBXNativeTarget "RainDrop WatchKit Extension" */;
+			buildPhases = (
+				CC786C631AC1CD1000FE9C3C /* Sources */,
+				CC786C641AC1CD1000FE9C3C /* Frameworks */,
+				CC786C651AC1CD1000FE9C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC786C741AC1CD1000FE9C3C /* PBXTargetDependency */,
+			);
+			name = "RainDrop WatchKit Extension";
+			productName = "RainDrop WatchKit Extension";
+			productReference = CC786C671AC1CD1000FE9C3C /* RainDrop WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		CC786C701AC1CD1000FE9C3C /* RainDrop WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC786C801AC1CD1000FE9C3C /* Build configuration list for PBXNativeTarget "RainDrop WatchKit App" */;
+			buildPhases = (
+				CC786C6F1AC1CD1000FE9C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RainDrop WatchKit App";
+			productName = "RainDrop WatchKit App";
+			productReference = CC786C711AC1CD1000FE9C3C /* RainDrop WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC786C361AC1CD0400FE9C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Tuts+";
+				TargetAttributes = {
+					CC786C3D1AC1CD0400FE9C3C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CC786C521AC1CD0400FE9C3C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CC786C3D1AC1CD0400FE9C3C;
+					};
+					CC786C661AC1CD1000FE9C3C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CC786C701AC1CD1000FE9C3C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = CC786C391AC1CD0400FE9C3C /* Build configuration list for PBXProject "RainDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC786C351AC1CD0400FE9C3C;
+			productRefGroup = CC786C3F1AC1CD0400FE9C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC786C3D1AC1CD0400FE9C3C /* RainDrop */,
+				CC786C521AC1CD0400FE9C3C /* RainDropTests */,
+				CC786C661AC1CD1000FE9C3C /* RainDrop WatchKit Extension */,
+				CC786C701AC1CD1000FE9C3C /* RainDrop WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC786C3C1AC1CD0400FE9C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC786C491AC1CD0400FE9C3C /* Main.storyboard in Resources */,
+				CC786C4E1AC1CD0400FE9C3C /* LaunchScreen.xib in Resources */,
+				CC786C4B1AC1CD0400FE9C3C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC786C511AC1CD0400FE9C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC786C651AC1CD1000FE9C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC786C6E1AC1CD1000FE9C3C /* Images.xcassets in Resources */,
+				CC786C721AC1CD1000FE9C3C /* RainDrop WatchKit App.app in Resources */,
+				CC4381EC1ACE99A900E93B3D /* weather.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC786C6F1AC1CD1000FE9C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC786C7A1AC1CD1000FE9C3C /* Interface.storyboard in Resources */,
+				CC786C7C1AC1CD1000FE9C3C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC786C3A1AC1CD0400FE9C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC786C461AC1CD0400FE9C3C /* ViewController.swift in Sources */,
+				CC786C441AC1CD0400FE9C3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC786C4F1AC1CD0400FE9C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC786C5A1AC1CD0400FE9C3C /* RainDropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC786C631AC1CD1000FE9C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC786C6C1AC1CD1000FE9C3C /* InterfaceController.swift in Sources */,
+				CC4381F01ACEA17700E93B3D /* WeatherData.swift in Sources */,
+				CC4381EE1ACE9C2600E93B3D /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC786C551AC1CD0400FE9C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC786C3D1AC1CD0400FE9C3C /* RainDrop */;
+			targetProxy = CC786C541AC1CD0400FE9C3C /* PBXContainerItemProxy */;
+		};
+		CC786C741AC1CD1000FE9C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC786C701AC1CD1000FE9C3C /* RainDrop WatchKit App */;
+			targetProxy = CC786C731AC1CD1000FE9C3C /* PBXContainerItemProxy */;
+		};
+		CC786C7E1AC1CD1000FE9C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC786C661AC1CD1000FE9C3C /* RainDrop WatchKit Extension */;
+			targetProxy = CC786C7D1AC1CD1000FE9C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC786C471AC1CD0400FE9C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC786C481AC1CD0400FE9C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC786C4C1AC1CD0400FE9C3C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC786C4D1AC1CD0400FE9C3C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CC786C781AC1CD1000FE9C3C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC786C791AC1CD1000FE9C3C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC786C5B1AC1CD0400FE9C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC786C5C1AC1CD0400FE9C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC786C5E1AC1CD0400FE9C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = RainDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC786C5F1AC1CD0400FE9C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = RainDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC786C611AC1CD0400FE9C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RainDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainDrop.app/RainDrop";
+			};
+			name = Debug;
+		};
+		CC786C621AC1CD0400FE9C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RainDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainDrop.app/RainDrop";
+			};
+			name = Release;
+		};
+		CC786C811AC1CD1000FE9C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = RainDrop_WatchKit_Extension;
+				INFOPLIST_FILE = "RainDrop WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		CC786C821AC1CD1000FE9C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = RainDrop_WatchKit_Extension;
+				INFOPLIST_FILE = "RainDrop WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		CC786C841AC1CD1000FE9C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RainDrop WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC786C851AC1CD1000FE9C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RainDrop WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC786C391AC1CD0400FE9C3C /* Build configuration list for PBXProject "RainDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC786C5B1AC1CD0400FE9C3C /* Debug */,
+				CC786C5C1AC1CD0400FE9C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC786C5D1AC1CD0400FE9C3C /* Build configuration list for PBXNativeTarget "RainDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC786C5E1AC1CD0400FE9C3C /* Debug */,
+				CC786C5F1AC1CD0400FE9C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC786C601AC1CD0400FE9C3C /* Build configuration list for PBXNativeTarget "RainDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC786C611AC1CD0400FE9C3C /* Debug */,
+				CC786C621AC1CD0400FE9C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC786C801AC1CD1000FE9C3C /* Build configuration list for PBXNativeTarget "RainDrop WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC786C811AC1CD1000FE9C3C /* Debug */,
+				CC786C821AC1CD1000FE9C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC786C831AC1CD1000FE9C3C /* Build configuration list for PBXNativeTarget "RainDrop WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC786C841AC1CD1000FE9C3C /* Debug */,
+				CC786C851AC1CD1000FE9C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC786C361AC1CD0400FE9C3C /* Project object */;
+}
